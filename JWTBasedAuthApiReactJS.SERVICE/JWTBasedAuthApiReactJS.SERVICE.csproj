@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>JWT_Based_Auth_Api_ReactJS.SERVICE</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JWTBasedAuthApiReactJS.CORE\JWTBasedAuthApiReactJS.CORE.csproj" />
+    <ProjectReference Include="..\JWTBasedAuthApiReactJS.DATA\JWTBasedAuthApiReactJS.DATA.csproj" />
+    <ProjectReference Include="..\JWTBasedAuthApiReactJS.SHARED\JWTBasedAuthApiReactJS.SHARED.csproj" />
+  </ItemGroup>
+
+</Project>
