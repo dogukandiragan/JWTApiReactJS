@@ -46,9 +46,6 @@ builder.Services.AddAutoMapper(cfg => cfg.AddProfile<MapProfile>());
 
 
 ConfigurationManager configuration = builder.Configuration;
-
-
-
 var tokenOption = configuration.GetSection("TokenOption").Get<CustomTokenOptions>();
 
 
